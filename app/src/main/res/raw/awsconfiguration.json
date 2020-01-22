@@ -1,0 +1,20 @@
+{
+  "Version": "1.0",
+  "IdentityManager": {
+    "Default": {}
+  },
+"CredentialsProvider": {
+  "CognitoIdentity": {
+    "Default": {
+      "PoolId": "ap-southeast-1:dcae8665-fddd-4658-bade-0a70b06039ce",
+      "Region": "ap-southeast-1"
+    }
+  }
+},
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "inr-test-kompas",
+      "Region": "ap-southeast-1"
+    }
+  }
+}
